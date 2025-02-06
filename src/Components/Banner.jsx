@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="w-10/12 mx-auto border-2 text-white">
       <div className="flex">
         {/* deatils */}
-        <div className='flex-1'>
+        <div className='flex-1 space-y-4'>
           <div className=''>
             <h1 className='text-4xl font-semibold'>helow </h1>
             <h1 className='text-4xl font-semibold'>This is Abdullah Al Mohyet</h1>
@@ -18,7 +18,7 @@ const Banner = () => {
             <button><FaGithub className='size-12'/></button>
             <button><FaFacebook className='size-12'/></button>
           </div>
-          <button><FaDownload /> Download Resume</button>
+          <button className='btn btn-success'><FaDownload /> Download Resume</button>
         </div>
 
 
