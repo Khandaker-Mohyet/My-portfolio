@@ -7,7 +7,8 @@ const Banner = () => {
     <div className="w-10/12 mx-auto border-2 text-white">
       <div className="flex">
         {/* deatils */}
-        <div className='flex-1 space-y-4'>
+        <div className='flex items-center justify-center flex-1 bg-yellow-400 m-5'>
+          <div className='flex-1 space-y-4'>
           <div className=''>
             <h1 className='text-4xl font-semibold'>helow </h1>
             <h1 className='text-4xl font-semibold'>This is Abdullah Al Mohyet</h1>
@@ -20,11 +21,12 @@ const Banner = () => {
           </div>
           <button className='btn btn-success'><FaDownload /> Download Resume</button>
         </div>
+        </div>
 
 
         {/* image */}
-        <div className='border-2 flex-1'>
-          <img className='w-[350px] h-[350px] rounded-full text-center' src={image} alt="" />
+        <div className='border-2 flex-1 flex items-center justify-center'>
+          <img className='w-[350px] h-[350px] rounded-full' src={image} alt="" />
         </div>
       </div>
     </div>
