@@ -1,18 +1,25 @@
 
 const projects = [
   {
-    name: "E-Commerce Website",
-    image: "https://via.placeholder.com/400", // Replace with your project image
-    description: "An online shopping platform with user authentication.",
-    technologies: ["React", "Node.js", "MongoDB", "TailwindCSS"],
-    liveLink: "https://your-ecommerce.com",
+    name: "Chill Gamer",
+    image: "https://i.ibb.co.com/Ldzj8B88/Screenshot-2025-02-07-154625.png", // Replace with your project image
+    description: "Chill Gamer is a game review platform where users can explore, write, and share game reviews. The application features a clean, responsive design that ensures a seamless and enjoyable user experience.",
+    technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
+    liveLink: "https://chill-gamer-493d7.web.app",
   },
   {
-    name: "Task Management App",
-    image: "https://via.placeholder.com/400",
-    description: "A simple app to manage daily tasks and track progress.",
-    technologies: ["React", "Firebase", "TailwindCSS"],
-    liveLink: "https://your-taskapp.com",
+    name: "Car Booking Platform",
+    image: "https://i.ibb.co.com/LdWSGFxT/Screenshot-2025-02-07-154713.png",
+    description: "This project is a car booking platform where users can view detailed information about cars and make bookings. The application allows users to select a car, pick a booking date, and confirm their reservation.",
+    technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
+    liveLink: "https://car-rental-750a3.web.app/",
+  },
+  {
+    name: "Study Platform",
+    image: "https://i.ibb.co.com/Q389MNxK/Screenshot-2025-02-07-154800.png",
+    description: "Collaborative Study Platform is a web-based application designed to connect students, tutors, and administrators for seamless study session scheduling, resource sharing, and effective educational management.",
+    technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
+    liveLink: "https://study-platform-ba93a.web.app",
   },
 ];
 
@@ -29,7 +36,7 @@ const Projects = () => {
             <img src={project.image} alt={project.name} className="w-full h-52 object-cover rounded-lg" />
             <h3 className="text-xl font-bold text-white mt-4">{project.name}</h3>
             <p className="text-gray-400 mt-2">{project.description}</p>
-            <div className="flex gap-2 mt-2">
+            <div className="flex flex-wrap gap-2 mt-2">
               {project.technologies.map((tech, i) => (
                 <span key={i} className="px-3 py-1 bg-gray-700 text-sm text-white rounded-full">{tech}</span>
               ))}
