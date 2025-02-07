@@ -6,6 +6,7 @@ const projects = [
     description: "Chill Gamer is a game review platform where users can explore, write, and share game reviews. The application features a clean, responsive design that ensures a seamless and enjoyable user experience.",
     technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
     liveLink: "https://chill-gamer-493d7.web.app",
+    github: "https://github.com/Khandaker-Mohyet/Chill-Gamer-client",
   },
   {
     name: "Car Booking Platform",
@@ -13,6 +14,7 @@ const projects = [
     description: "This project is a car booking platform where users can view detailed information about cars and make bookings. The application allows users to select a car, pick a booking date, and confirm their reservation.",
     technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
     liveLink: "https://car-rental-750a3.web.app/",
+    github: "https://github.com/Khandaker-Mohyet/Car-Rental"
   },
   {
     name: "Study Platform",
@@ -20,6 +22,7 @@ const projects = [
     description: "Collaborative Study Platform is a web-based application designed to connect students, tutors, and administrators for seamless study session scheduling, resource sharing, and effective educational management.",
     technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
     liveLink: "https://study-platform-ba93a.web.app",
+    github: "https://github.com/Khandaker-Mohyet/Study-Platform",
   },
 ];
 
@@ -41,9 +44,14 @@ const Projects = () => {
                 <span key={i} className="px-3 py-1 bg-gray-700 text-sm text-white rounded-full">{tech}</span>
               ))}
             </div>
-            <a href={project.liveLink} target="_blank" className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            <div className="flex space-x-4">
+              <a href={project.liveLink} target="_blank" className="inline-block mt-4 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:opacity-90">
               Live Demo
             </a>
+            <a href={project.github} target="_blank" className="inline-block mt-4 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:opacity-90">
+              Github
+            </a>
+            </div>
           </div>
         ))}
       </div>
