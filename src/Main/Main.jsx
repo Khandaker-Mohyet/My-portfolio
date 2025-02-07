@@ -4,6 +4,7 @@ import BannerNew from "../Components/BannerNew";
 import Contact from "../Components/Contact";
 import Education from "../Components/Education";
 import Experience from "../Components/Experience";
+import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Projects from "../Components/Projects";
 import Skills from "../Components/Skills";
@@ -21,6 +22,7 @@ const Main = () => {
       <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };

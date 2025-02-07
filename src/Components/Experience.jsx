@@ -13,7 +13,7 @@ const Experience = () => {
           <h3 className="text-xl font-bold text-white">Supply Chain Supevisor</h3>
           <p className="text-gray-400">Marico Bangladesh LTD.</p>
           <p className="text-gray-500">Duration:01-03-2022 to 30-03-2022</p>
-          <p className="text-gray-300 mt-4">[Short Description of Responsibilities]</p>
+          <p className="text-gray-300 mt-4">I used to manage all Production materials and finished goods of this company. I used to create VAT file 6.3 and 6.5.</p>
         </div>
       </div>
     </div>

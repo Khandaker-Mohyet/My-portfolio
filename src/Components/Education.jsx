@@ -15,14 +15,15 @@ const Education = () => {
           <h3 className="text-xl font-bold text-white">Bachelor of Business Studies (B.B.S.)</h3>
           <p className="text-gray-400">National University</p>
           <p className="text-gray-400">Vhawal Badra Alom Gov College</p>
-          <p className="text-gray-500">Pussing Year: 2023</p>
+          <p className="text-gray-500">Pussing Year: 2022</p>
         </div>
 
         {/* Education 2 */}
         <div className="w-full md:w-1/2 bg-gray-800 p-6 rounded-2xl shadow-lg transition transform hover:scale-105 hover:shadow-2xl">
-          <h3 className="text-xl font-bold text-white">[Degree Name]</h3>
-          <p className="text-gray-400">[Institution Name]</p>
-          <p className="text-gray-500">[Year]</p>
+          <h3 className="text-xl font-bold text-white">Masters of Arts(MA) at Economic</h3>
+          <p className="text-gray-400">National University</p>
+          <p className="text-gray-400">Vhawal Badra Alom Gov College</p>
+          <p className="text-gray-500">Pussing Year: 2024</p>
         </div>
 
       </div>
