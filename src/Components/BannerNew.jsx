@@ -19,13 +19,13 @@ const BannerNew = () => {
 
           {/* Social Icons */}
           <div className="flex gap-5">
-            <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-blue-500 transition duration-300">
+            <a href="https://www.linkedin.com/in/abdullah-al-mohyet-724ba1323/" className="p-2 bg-gray-800 rounded-full hover:bg-blue-500 transition duration-300">
               <CiLinkedin className="size-10 text-white" />
             </a>
-            <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-gray-600 transition duration-300">
+            <a href="https://github.com/Khandaker-Mohyet" className="p-2 bg-gray-800 rounded-full hover:bg-gray-600 transition duration-300">
               <FaGithub className="size-10 text-white" />
             </a>
-            <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition duration-300">
+            <a href="https://www.facebook.com/share/17exYoJUrr/" className="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition duration-300">
               <FaFacebook className="size-10 text-white" />
             </a>
           </div>
