@@ -1,5 +1,5 @@
+import { Outlet } from "react-router-dom";
 import About from "../Components/About";
-import Banner from "../Components/Banner";
 import BannerNew from "../Components/BannerNew";
 import Contact from "../Components/Contact";
 import Education from "../Components/Education";
@@ -14,7 +14,6 @@ const Main = () => {
   return (
     <div>
       <Navbar></Navbar>
-      {/* <Banner></Banner> */}
       <BannerNew></BannerNew>
       <About></About>
       <Skills></Skills>
@@ -22,6 +21,7 @@ const Main = () => {
       <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
+      <Outlet></Outlet>
       <Footer></Footer>
     </div>
   );

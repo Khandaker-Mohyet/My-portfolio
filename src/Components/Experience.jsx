@@ -1,8 +1,10 @@
 
 
+
 const Experience = () => {
   return (
-    <div className="w-10/12 mx-auto py-16">
+    
+      <div className="w-10/12 mx-auto py-16">
       <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
         My Experience
       </h2>

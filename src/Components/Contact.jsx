@@ -1,4 +1,4 @@
-import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneSquareAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -15,6 +15,14 @@ const Contact = () => {
             <div>
               <h4 className="text-lg font-semibold">Email</h4>
               <p className="text-gray-400">mohyet0007@gmail.com</p>
+            </div>
+            </div>
+            
+          <div className="flex items-center gap-4">
+            <FaPhoneSquareAlt className="text-pink-500 text-xl" />
+            <div>
+              <h4 className="text-lg font-semibold">Phone</h4>
+              <p className="text-gray-400">01700592546</p>
             </div>
           </div>
 

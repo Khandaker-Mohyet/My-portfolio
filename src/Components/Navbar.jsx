@@ -1,17 +1,19 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 
 
 
 const Navbar = () => {
 
   const nav = <>
+    
     <NavLink ><li><a>Home</a></li></NavLink>
     <NavLink ><li><a>About</a></li></NavLink>
-    <NavLink><li><a>Skills</a></li></NavLink>
-    <NavLink><li><a>Education</a></li></NavLink>
-    <NavLink><li><a>Experice</a></li></NavLink>
-    <NavLink><li><a>Project</a></li></NavLink>
-    <NavLink><li><a>Contact</a></li></NavLink>
+    <NavLink ><li><a>Skills</a></li></NavLink>
+    <NavLink ><li><a>Education</a></li></NavLink>
+    <NavLink ><li><a>Experice</a></li></NavLink>
+    <NavLink ><li><a>Project</a></li></NavLink>
+    <NavLink ><li><a>Contact</a></li></NavLink>
   </>
 
   return (
@@ -38,7 +40,6 @@ const Navbar = () => {
             {nav}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -46,7 +47,6 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
       </div>
     </div>
   );
