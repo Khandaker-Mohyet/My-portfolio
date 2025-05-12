@@ -2,7 +2,7 @@
 
 const About = () => {
   return (
-    <div className="w-10/12 mx-auto py-16">
+    <div id="about" className="w-10/12 mx-auto py-16">
         {/* About Content */}
         <div className="flex-1 space-y-6">
           <h2 className="text-center text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">

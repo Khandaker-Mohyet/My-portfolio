@@ -4,7 +4,7 @@ import { FaDownload, FaFacebook, FaGithub } from 'react-icons/fa';
 
 const Banner = () => {
   return (
-    <div className="w-10/12 mx-auto border-2 text-white">
+    <div  className="w-10/12 mx-auto border-2 text-white">
       <div className="flex">
         {/* deatils */}
         <div className='flex items-center justify-center flex-1 bg-yellow-400 m-5'>

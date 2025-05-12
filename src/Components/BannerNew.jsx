@@ -4,8 +4,8 @@ import { FaDownload, FaFacebook, FaGithub } from 'react-icons/fa';
 
 const BannerNew = () => {
   return (
-    <div className="w-10/12 mx-auto py-12">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-10 bg-gray-900 text-white p-10 rounded-2xl shadow-lg">
+    <div id='home' className="w-10/12 mx-auto py-12">
+      <div className="flex flex-col md:flex-row items-center mt-7 justify-between gap-10 bg-gray-900 text-white p-10 rounded-2xl shadow-lg">
 
         {/* Details Section */}
         <div className="flex-1 space-y-6">

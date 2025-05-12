@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+
 
 
 
@@ -7,17 +7,17 @@ const Navbar = () => {
 
   const nav = <>
     
-    <NavLink ><li><a>Home</a></li></NavLink>
-    <NavLink ><li><a>About</a></li></NavLink>
-    <NavLink ><li><a>Skills</a></li></NavLink>
-    <NavLink ><li><a>Education</a></li></NavLink>
-    <NavLink ><li><a>Experice</a></li></NavLink>
-    <NavLink ><li><a>Project</a></li></NavLink>
-    <NavLink ><li><a>Contact</a></li></NavLink>
+    <li><a href="#home" className="transition-all duration-150">Home</a></li>
+    <li><a href="#about" className="duration-150">About</a></li>
+    <li><a href="#skill" className="transition-all duration-150">Skills</a></li>
+    <li><a href="#education" className="duration-150">Education</a></li>
+    <li><a href="#experience" className="duration-150">Experice</a></li>
+    <li><a href="#project" className="duration-150">Project</a></li>
+    <li><a href="#contact" className="duration-150">Contact</a></li>
   </>
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 fixed z-50 backdrop-blur-lg bg-background/70">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

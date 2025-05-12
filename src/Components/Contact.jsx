@@ -2,7 +2,7 @@ import { FaEnvelope, FaMapMarkerAlt, FaPhoneSquareAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="w-10/12 mx-auto py-16 flex flex-col md:flex-row gap-12">
+    <div id="contact" className="w-10/12 mx-auto py-16 flex flex-col md:flex-row gap-12">
       {/* Left Side: Contact Info */}
       <div className=" flex-1 flex items-center justify-center p-4">
         <div className=" text-white ">
