@@ -31,9 +31,14 @@ const BannerNew = () => {
           </div>
 
           {/* Download Resume Button */}
+          <a href="/resume-1.pdf"
+            download
+            className='inline-block'
+          >
           <button className="flex items-center gap-2 px-5 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition duration-300">
             <FaDownload /> Download Resume
           </button>
+          </a>
         </div>
 
         {/* Image Section */}
