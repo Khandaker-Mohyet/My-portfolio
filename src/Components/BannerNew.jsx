@@ -14,7 +14,7 @@ const BannerNew = () => {
             <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               I'm Khandaker Mohyet
             </h1>
-            <h1 className="text-2xl font-semibold text-gray-400">MERN Stack Developer</h1>
+            <h1 className="text-2xl font-semibold text-gray-400">Frontend Developer</h1>
           </div>
 
           {/* Social Icons */}
