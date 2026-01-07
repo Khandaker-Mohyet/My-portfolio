@@ -31,7 +31,7 @@ const BannerNew = () => {
           </div>
 
           {/* Download Resume Button */}
-          <a href="/Mohyet_resume.pdf"
+          <a href="/PH_CV.pdf"
             download
             className='inline-block'
           >
