@@ -23,10 +23,22 @@ const Experience = () => {
         <div className="w-full md:w-2/3 bg-gray-800 p-6 rounded-2xl shadow-lg transition transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-xl font-bold text-white">Frontend Developer (CMS)</h3>
           <p className="text-gray-400">Softvance Agency</p>
-          <p className="text-gray-500">Duration: 01-07-2025 - Present</p>
+          <p className="text-gray-500">Duration: 01-07-2025 - 30-09-2025</p>
           <p className="text-gray-300 mt-4">
             My responsibility is to create websites with good communication with clients 
             and deliver high-quality CMS-based solutions.
+          </p>
+        </div>
+      </div>
+
+      {/* Experience Card 3 */}
+      <div className="mt-6 flex justify-center">
+        <div className="w-full md:w-2/3 bg-gray-800 p-6 rounded-2xl shadow-lg transition transform hover:scale-105 hover:shadow-2xl">
+          <h3 className="text-xl font-bold text-white">Instructor (Web Design & Development)</h3>
+          <p className="text-gray-400">Kapasia Skill Development Institute</p>
+          <p className="text-gray-500">Duration: 01-10-2025 - Present</p>
+          <p className="text-gray-300 mt-4">
+            My responsibility is to teach web design and development concepts, assist students in solving coding problems, review their work, and ensure a supportive and effective learning environment.
           </p>
         </div>
       </div>
